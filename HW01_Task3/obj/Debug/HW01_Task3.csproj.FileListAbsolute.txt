@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW01_Task3\bin\Debug\HW01_Task3.exe.config
+D:\Visual_Studio\WinForms\HW01_Task3\bin\Debug\HW01_Task3.exe
+D:\Visual_Studio\WinForms\HW01_Task3\bin\Debug\HW01_Task3.pdb
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.Form1.resources
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.exe
+D:\Visual_Studio\WinForms\HW01_Task3\obj\Debug\HW01_Task3.pdb

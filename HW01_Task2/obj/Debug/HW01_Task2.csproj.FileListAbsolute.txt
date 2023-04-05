@@ -1,0 +1,10 @@
+D:\Visual_Studio\WinForms\HW01_Task2\bin\Debug\HW01_Task2.exe.config
+D:\Visual_Studio\WinForms\HW01_Task2\bin\Debug\HW01_Task2.exe
+D:\Visual_Studio\WinForms\HW01_Task2\bin\Debug\HW01_Task2.pdb
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.exe
+D:\Visual_Studio\WinForms\HW01_Task2\obj\Debug\HW01_Task2.pdb

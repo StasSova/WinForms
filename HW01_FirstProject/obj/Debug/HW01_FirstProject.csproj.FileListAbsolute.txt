@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW01_FirstProject\bin\Debug\HW01_FirstProject.exe.config
+D:\Visual_Studio\WinForms\HW01_FirstProject\bin\Debug\HW01_FirstProject.exe
+D:\Visual_Studio\WinForms\HW01_FirstProject\bin\Debug\HW01_FirstProject.pdb
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.Form1.resources
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.exe
+D:\Visual_Studio\WinForms\HW01_FirstProject\obj\Debug\HW01_FirstProject.pdb
