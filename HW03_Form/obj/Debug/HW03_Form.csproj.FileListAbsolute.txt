@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW03_Form\bin\Debug\HW03_Form.exe.config
+D:\Visual_Studio\WinForms\HW03_Form\bin\Debug\HW03_Form.exe
+D:\Visual_Studio\WinForms\HW03_Form\bin\Debug\HW03_Form.pdb
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.Form1.resources
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.exe
+D:\Visual_Studio\WinForms\HW03_Form\obj\Debug\HW03_Form.pdb
