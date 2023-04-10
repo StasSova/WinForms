@@ -1,0 +1,12 @@
+
+
+BestOil
+Type fuel: A-92
+Sum: 100
+
+
+Cafe
+HotDog: 1 pcs.
+Hamburger: 2 pcs.
+Potato: 3 pcs.
+Sum: 370

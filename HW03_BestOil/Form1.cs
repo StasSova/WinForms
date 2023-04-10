@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -15,9 +16,49 @@ namespace HW03_BestOil
     {
         List<KeyValuePair<string, double>> Fuel = new List<KeyValuePair<string, double>>();
         List<KeyValuePair<string, double>> Food = new List<KeyValuePair<string, double>>();
+        MainMenu MyMenu;
+        MenuItem Next, Reset, Exit;
+
+        ContextMenuStrip ContMenu;
+        ToolStripMenuItem cNext,cReset,cExit;
+        
         public Form1()
         {
             InitializeComponent();
+            //
+            // Menu
+            //
+            MyMenu = new MainMenu();
+
+            Next = new MenuItem("Наступний");
+            Next.Select += new EventHandler(Next_Select);
+            MyMenu.MenuItems.Add(Next);
+
+            Reset = new MenuItem("Скинути");
+            Reset.Select += new EventHandler(Reset_Select);
+            MyMenu.MenuItems.Add(Reset);
+
+            Exit = new MenuItem("Вихід");
+            Exit.Select += new EventHandler(Exit_Select);
+            MyMenu.MenuItems.Add(Exit);
+            Menu = MyMenu;
+            //
+            // Context Menu Stip
+            //
+            ContMenu = new ContextMenuStrip();
+            
+            cNext = new ToolStripMenuItem("Наступний");
+            cNext.Click += new EventHandler(Next_Select);
+            ContMenu.Items.Add(cNext);
+
+            cReset = new ToolStripMenuItem("Скинути");
+            cReset.Click += new EventHandler(Reset_Select);
+            ContMenu.Items.Add(cReset);
+
+            cExit = new ToolStripMenuItem("Вихід");
+            cExit.Click += new EventHandler(Exit_Select);
+            ContMenu.Items.Add(cExit);
+            this.ContextMenuStrip = ContMenu;
             //
             // Cafe
             //
@@ -61,26 +102,26 @@ namespace HW03_BestOil
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked) { HotDog.Enabled = true; }
-            else { HotDog.Enabled = false;}
+            else { HotDog.Enabled = false; HotDog.Text = ""; }
         }
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox2.Checked) { Hamburger.Enabled = true; }
-            else { Hamburger.Enabled = false; }
+            else { Hamburger.Enabled = false; Hamburger.Text = ""; }
         }
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox3.Checked) { Potato.Enabled = true; }
-            else { Potato.Enabled = false; }
+            else { Potato.Enabled = false; Potato.Text = ""; }
         }
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox4.Checked) { CocaCola.Enabled = true; }
-            else { CocaCola.Enabled = false; }
+            else { CocaCola.Enabled = false; CocaCola.Text = ""; }
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked) { Count.Enabled = true; }
+            if (radioButton1.Checked) { Count.Enabled = true; SumOfFuel.Text = ""; }
             else { Count.Enabled = false; Count.Text = "0"; SumOil.Text = "0"; }
         }
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -158,6 +199,52 @@ namespace HW03_BestOil
                 SumOil.Text = SumOfFuel.Text;
                 Count.Text = String.Format("{0:F2}", (Convert.ToDouble(SumOfFuel.Text) / Convert.ToDouble(PriceFuel.Text)));
             }
+        }
+
+
+
+        // 
+        // Menu 
+        // 
+        private void Next_Select(object sender, EventArgs e)
+        {
+            StreamWriter sw = new StreamWriter("1.txt", true);
+            sw.WriteLine("\n\nBestOil");
+            // тип топлива
+            sw.WriteLine("Type fuel: "+TypeFuel.SelectedItem.ToString()); 
+            // кол-во или цена
+            if (radioButton1.Checked)
+            sw.WriteLine("Count: " + Count.Text);
+            sw.WriteLine("Sum: " + SumOil.Text);
+
+            sw.WriteLine("\n\nCafe");
+            if (checkBox1.Checked)
+                sw.WriteLine("HotDog: " + HotDog.Text + " pcs.");
+            if (checkBox2.Checked)
+                sw.WriteLine("Hamburger: " + Hamburger.Text + " pcs.");
+            if (checkBox3.Checked)
+                sw.WriteLine("Potato: " + Potato.Text + " pcs.");
+            if (checkBox4.Checked)
+                sw.WriteLine("CocaCola: " + CocaCola.Text + " pcs.");
+            sw.WriteLine("Sum: " + SumCafe.Text);
+            sw.Close();
+            Reset_Select(Reset,e);
+        }
+
+        private void Reset_Select(object sender, EventArgs e)
+        {
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            radioButton1.Checked = true;
+            Count.Text = "";
+            TypeFuel.SelectedIndex = 0;
+        }
+
+        private void Exit_Select(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
