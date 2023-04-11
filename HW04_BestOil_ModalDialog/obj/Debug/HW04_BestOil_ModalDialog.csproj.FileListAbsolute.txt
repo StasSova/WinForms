@@ -1,0 +1,15 @@
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\bin\Debug\HW04_BestOil_ModalDialog.exe.config
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\bin\Debug\HW04_BestOil_ModalDialog.exe
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\bin\Debug\HW04_BestOil_ModalDialog.pdb
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.Cafe.resources
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.Form1.resources
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.Oil.resources
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.exe
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.pdb
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.CafeConstr.resources
+D:\Visual_Studio\WinForms\HW04_BestOil_ModalDialog\obj\Debug\HW04_BestOil_ModalDialog.OilConstructor.resources
