@@ -1,0 +1,12 @@
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\bin\Debug\HW05_PC_Sell_Change.exe.config
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\bin\Debug\HW05_PC_Sell_Change.exe
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\bin\Debug\HW05_PC_Sell_Change.pdb
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.Form1.resources
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.exe
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.pdb
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_PC_Sell_Change\obj\Debug\HW05_PC_Sell_Change.Constr.resources

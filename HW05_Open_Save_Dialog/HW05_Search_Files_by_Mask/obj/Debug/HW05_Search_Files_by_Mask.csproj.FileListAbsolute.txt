@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\bin\Debug\HW05_Search_Files_by_Mask.exe.config
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\bin\Debug\HW05_Search_Files_by_Mask.exe
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\bin\Debug\HW05_Search_Files_by_Mask.pdb
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.Form1.resources
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.exe
+D:\Visual_Studio\WinForms\HW05_Open_Save_Dialog\HW05_Search_Files_by_Mask\obj\Debug\HW05_Search_Files_by_Mask.pdb
