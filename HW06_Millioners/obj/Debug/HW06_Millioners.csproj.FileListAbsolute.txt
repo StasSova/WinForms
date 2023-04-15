@@ -1,0 +1,13 @@
+D:\Visual_Studio\WinForms\HW06_Millioners\bin\Debug\HW06_Millioners.exe.config
+D:\Visual_Studio\WinForms\HW06_Millioners\bin\Debug\HW06_Millioners.exe
+D:\Visual_Studio\WinForms\HW06_Millioners\bin\Debug\HW06_Millioners.pdb
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.Form1.resources
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.exe
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.pdb
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.AddQuest.resources
+D:\Visual_Studio\WinForms\HW06_Millioners\obj\Debug\HW06_Millioners.RemoveQuest.resources
