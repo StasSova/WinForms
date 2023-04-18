@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HW08_Thread_ConsoleAPP/1.0.0": {
+        "runtime": {
+          "HW08_Thread_ConsoleAPP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HW08_Thread_ConsoleAPP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

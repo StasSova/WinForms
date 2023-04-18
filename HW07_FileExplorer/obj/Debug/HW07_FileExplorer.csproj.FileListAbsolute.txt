@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW07_FileExplorer\bin\Debug\HW07_FileExplorer.exe.config
+D:\Visual_Studio\WinForms\HW07_FileExplorer\bin\Debug\HW07_FileExplorer.exe
+D:\Visual_Studio\WinForms\HW07_FileExplorer\bin\Debug\HW07_FileExplorer.pdb
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.Form1.resources
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.exe
+D:\Visual_Studio\WinForms\HW07_FileExplorer\obj\Debug\HW07_FileExplorer.pdb

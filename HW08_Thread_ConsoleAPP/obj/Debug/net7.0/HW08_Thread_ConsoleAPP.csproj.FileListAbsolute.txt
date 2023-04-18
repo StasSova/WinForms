@@ -1,0 +1,15 @@
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.AssemblyInfoInputs.cache
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.AssemblyInfo.cs
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\bin\Debug\net7.0\HW08_Thread_ConsoleAPP.exe
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\bin\Debug\net7.0\HW08_Thread_ConsoleAPP.deps.json
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\bin\Debug\net7.0\HW08_Thread_ConsoleAPP.runtimeconfig.json
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\bin\Debug\net7.0\HW08_Thread_ConsoleAPP.dll
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\bin\Debug\net7.0\HW08_Thread_ConsoleAPP.pdb
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.dll
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\refint\HW08_Thread_ConsoleAPP.dll
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.pdb
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\HW08_Thread_ConsoleAPP.genruntimeconfig.cache
+D:\Visual_Studio\WinForms\HW08_Thread_ConsoleAPP\obj\Debug\net7.0\ref\HW08_Thread_ConsoleAPP.dll
