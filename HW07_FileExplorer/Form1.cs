@@ -22,6 +22,10 @@ namespace HW07_FileExplorer
             //
             // ИКОНКИ
             //
+            StartInit();
+        }
+        private void StartInit()
+        {
             #region
             // глубина цвета изображений
             image_list1.ColorDepth = ColorDepth.Depth32Bit;
@@ -169,6 +173,44 @@ namespace HW07_FileExplorer
                 ForwardHistory.Remove(ForwardHistory.Last());
                 if (ForwardHistory.Count == 0) toolStripButton2.Enabled = false;
             }
+        }
+
+        private void largeIconToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.View = View.LargeIcon;
+        }
+
+        private void detailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.View = View.Details;
+        }
+
+        private void smallIconToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.View = View.SmallIcon;
+        }
+
+        private void listToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.View = View.List;
+        }
+
+        private void titleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.View = View.Tile;
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            TreeNode node = treeView1.SelectedNode;
+            if (node.Parent != null)
+            node.Parent.Collapse();
+        }
+        // Restart
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            treeView1.Nodes.Clear();
+            StartInit();
         }
     }
 }
