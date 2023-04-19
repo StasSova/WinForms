@@ -1,0 +1,14 @@
+D:\Visual_Studio\WinForms\HW09_Airport\bin\Debug\HW09_Airport.exe.config
+D:\Visual_Studio\WinForms\HW09_Airport\bin\Debug\HW09_Airport.exe
+D:\Visual_Studio\WinForms\HW09_Airport\bin\Debug\HW09_Airport.pdb
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.exe
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.pdb
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.Form1.resources
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.AddFlight.resources
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.RemoveFlight.resources
+D:\Visual_Studio\WinForms\HW09_Airport\obj\Debug\HW09_Airport.AddPass.resources
