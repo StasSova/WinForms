@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW10_KillProcess\bin\Debug\HW10_KillProcess.exe.config
+D:\Visual_Studio\WinForms\HW10_KillProcess\bin\Debug\HW10_KillProcess.exe
+D:\Visual_Studio\WinForms\HW10_KillProcess\bin\Debug\HW10_KillProcess.pdb
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.Form1.resources
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.exe
+D:\Visual_Studio\WinForms\HW10_KillProcess\obj\Debug\HW10_KillProcess.pdb
