@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\bin\Debug\HW11_AsyncAwait.exe.config
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\bin\Debug\HW11_AsyncAwait.exe
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\bin\Debug\HW11_AsyncAwait.pdb
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.Form1.resources
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.exe
+D:\Visual_Studio\WinForms\HW11_AsyncAwait\obj\Debug\HW11_AsyncAwait.pdb
