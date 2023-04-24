@@ -1,0 +1,11 @@
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\bin\Debug\HW12_SearchInFiles_Mutex.exe.config
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\bin\Debug\HW12_SearchInFiles_Mutex.exe
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\bin\Debug\HW12_SearchInFiles_Mutex.pdb
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.csproj.SuggestedBindingRedirects.cache
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.Form1.resources
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.Properties.Resources.resources
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.csproj.GenerateResource.cache
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.exe
+C:\Users\stass\Desktop\HW12_SearchInFiles_Mutex\obj\Debug\HW12_SearchInFiles_Mutex.pdb
