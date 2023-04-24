@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PaintModel));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -40,25 +41,25 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.MenuImage = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.очиститьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.изменитьЦветФонаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.MenuImage = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.очиститьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.изменитьЦветФонаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.ChangeColorBut.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.MenuImage.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.panel3.SuspendLayout();
-            this.MenuImage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -185,19 +186,28 @@
             this.button1.Click += new System.EventHandler(this.ChangeColorPen);
             this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
             // 
-            // pictureBox1
+            // MenuImage
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.ContextMenuStrip = this.MenuImage;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 72);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(890, 472);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
-            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
-            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
+            this.MenuImage.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.MenuImage.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.очиститьToolStripMenuItem,
+            this.изменитьЦветФонаToolStripMenuItem});
+            this.MenuImage.Name = "MenuImage";
+            this.MenuImage.Size = new System.Drawing.Size(223, 52);
+            // 
+            // очиститьToolStripMenuItem
+            // 
+            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
+            this.очиститьToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
+            this.очиститьToolStripMenuItem.Text = "Очистить";
+            this.очиститьToolStripMenuItem.Click += new System.EventHandler(this.очиститьToolStripMenuItem_Click);
+            // 
+            // изменитьЦветФонаToolStripMenuItem
+            // 
+            this.изменитьЦветФонаToolStripMenuItem.Name = "изменитьЦветФонаToolStripMenuItem";
+            this.изменитьЦветФонаToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
+            this.изменитьЦветФонаToolStripMenuItem.Text = "Изменить цвет фона";
+            this.изменитьЦветФонаToolStripMenuItem.Click += new System.EventHandler(this.изменитьЦветФонаToolStripMenuItem_Click);
             // 
             // panel2
             // 
@@ -231,17 +241,6 @@
             this.trackBar1.Value = 2;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.World, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(379, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(164, 60);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Текст";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.button7);
@@ -253,7 +252,7 @@
             // 
             // button7
             // 
-            this.button7.Image = global::BrokenPhone.Properties.Resources.Eraser;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.Location = new System.Drawing.Point(46, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(37, 37);
@@ -263,7 +262,7 @@
             // 
             // button6
             // 
-            this.button6.Image = global::BrokenPhone.Properties.Resources.Pen;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.Location = new System.Drawing.Point(3, 4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(37, 37);
@@ -271,28 +270,30 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // MenuImage
+            // label3
             // 
-            this.MenuImage.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.MenuImage.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.очиститьToolStripMenuItem,
-            this.изменитьЦветФонаToolStripMenuItem});
-            this.MenuImage.Name = "MenuImage";
-            this.MenuImage.Size = new System.Drawing.Size(223, 80);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.World, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(387, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(164, 60);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Текст";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // очиститьToolStripMenuItem
+            // pictureBox1
             // 
-            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
-            this.очиститьToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
-            this.очиститьToolStripMenuItem.Text = "Очистить";
-            this.очиститьToolStripMenuItem.Click += new System.EventHandler(this.очиститьToolStripMenuItem_Click);
-            // 
-            // изменитьЦветФонаToolStripMenuItem
-            // 
-            this.изменитьЦветФонаToolStripMenuItem.Name = "изменитьЦветФонаToolStripMenuItem";
-            this.изменитьЦветФонаToolStripMenuItem.Size = new System.Drawing.Size(222, 24);
-            this.изменитьЦветФонаToolStripMenuItem.Text = "Изменить цвет фона";
-            this.изменитьЦветФонаToolStripMenuItem.Click += new System.EventHandler(this.изменитьЦветФонаToolStripMenuItem_Click);
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.ContextMenuStrip = this.MenuImage;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 72);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(890, 523);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
             // PaintModel
             // 
@@ -308,14 +309,15 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "PaintModel";
             this.Text = "Painting";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PaintModel_KeyDown);
             this.panel1.ResumeLayout(false);
             this.ChangeColorBut.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.MenuImage.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.MenuImage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

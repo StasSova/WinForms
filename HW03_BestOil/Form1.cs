@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -21,10 +22,16 @@ namespace HW03_BestOil
 
         ContextMenuStrip ContMenu;
         ToolStripMenuItem cNext,cReset,cExit;
+
+        Mutex mutex;
         
         public Form1()
         {
             InitializeComponent();
+            //
+            // Mutex
+            //
+            mutex = new Mutex(true, "_MUTEX");
             //
             // Menu
             //
@@ -157,7 +164,9 @@ namespace HW03_BestOil
         }
         private void SumOil_TextChanged(object sender, EventArgs e)
         {
+
             textBox1.Text = (Convert.ToDouble(SumOil.Text) + Convert.ToDouble(SumCafe.Text)).ToString();
+
         }
 
 
@@ -229,6 +238,10 @@ namespace HW03_BestOil
             sw.WriteLine("Sum: " + SumCafe.Text);
             sw.Close();
             Reset_Select(Reset,e);
+
+            try { mutex.ReleaseMutex(); }
+            catch(Exception ex) { MessageBox.Show("Свободное пространство"); }
+            mutex.WaitOne();
         }
 
         private void Reset_Select(object sender, EventArgs e)

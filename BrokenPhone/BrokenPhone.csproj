@@ -61,15 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PaintModel.cs">
+    <Compile Include="Paint\ArrayPoint.cs" />
+    <Compile Include="Paint\Memento.cs" />
+    <Compile Include="Paint\PaintModel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaintModel.Designer.cs">
+    <Compile Include="Paint\PaintModel.Designer.cs">
       <DependentUpon>PaintModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PaintModel.resx">
+    <EmbeddedResource Include="Paint\PaintModel.resx">
       <DependentUpon>PaintModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -109,6 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\Eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Main_Background.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\Pen.png" />

@@ -10,3 +10,273 @@ HotDog: 1 pcs.
 Hamburger: 2 pcs.
 Potato: 3 pcs.
 Sum: 370
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 12
+Sum: 612
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 1232
+Sum: 62832
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 1231
+Sum: 62781
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: Газ
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 12
+Sum: 612
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 
+Sum: 0
+
+
+Cafe
+Sum: 0
+
+
+BestOil
+Type fuel: A-95+
+Count: 123
+Sum: 6273
+
+
+Cafe
+Sum: 0
