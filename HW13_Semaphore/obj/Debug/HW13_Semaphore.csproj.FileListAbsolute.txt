@@ -1,0 +1,11 @@
+D:\Visual_Studio\WinForms\HW13_Semaphore\bin\Debug\HW13_Semaphore.exe.config
+D:\Visual_Studio\WinForms\HW13_Semaphore\bin\Debug\HW13_Semaphore.exe
+D:\Visual_Studio\WinForms\HW13_Semaphore\bin\Debug\HW13_Semaphore.pdb
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.Form1.resources
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.exe
+D:\Visual_Studio\WinForms\HW13_Semaphore\obj\Debug\HW13_Semaphore.pdb
