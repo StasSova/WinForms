@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Name>Тысяча великолепных солнц</Name>
+    <Author>Халед Хоссейни</Author>
+  </Book>
+  <Book>
+    <Name>Портрет Дориана Грея</Name>
+    <Author>Оскар Уайльд</Author>
+  </Book>
+  <Book>
+    <Name>Война и мир</Name>
+    <Author>Лев Толстой</Author>
+  </Book>
+  <Book>
+    <Name>1984</Name>
+    <Author>Джордж Оруэлл</Author>
+  </Book>
+  <Book>
+    <Name>Тень ветра</Name>
+    <Author>Карлос Руис Сафон</Author>
+  </Book>
+</ArrayOfBook>
