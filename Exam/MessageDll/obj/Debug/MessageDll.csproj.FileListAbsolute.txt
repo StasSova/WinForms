@@ -1,0 +1,6 @@
+C:\Users\stass\Desktop\Exam\MessageDll\bin\Debug\MessageDll.dll
+C:\Users\stass\Desktop\Exam\MessageDll\bin\Debug\MessageDll.pdb
+C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.dll
+C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.pdb

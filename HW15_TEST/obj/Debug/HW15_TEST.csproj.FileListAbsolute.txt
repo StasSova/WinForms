@@ -1,0 +1,8 @@
+D:\Visual_Studio\WinForms\HW15_TEST\bin\Debug\HW15_TEST.exe.config
+D:\Visual_Studio\WinForms\HW15_TEST\bin\Debug\HW15_TEST.exe
+D:\Visual_Studio\WinForms\HW15_TEST\bin\Debug\HW15_TEST.pdb
+D:\Visual_Studio\WinForms\HW15_TEST\obj\Debug\HW15_TEST.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW15_TEST\obj\Debug\HW15_TEST.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW15_TEST\obj\Debug\HW15_TEST.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW15_TEST\obj\Debug\HW15_TEST.exe
+D:\Visual_Studio\WinForms\HW15_TEST\obj\Debug\HW15_TEST.pdb
