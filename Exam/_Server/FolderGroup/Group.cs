@@ -56,8 +56,9 @@ namespace _Server.FolderGroup
         public Player NextPlayer(Player player)
         {
             int currentIndex = _players.IndexOf(player);
-            int nextIndex = (currentIndex + 1) % _players.Count;
-            return _players[nextIndex];
+            if (currentIndex == _players.Count-1) // последний 
+                return _players[0];
+            else return _players[currentIndex + 1];
         }
         public Player PreviousPlayer(Player player, int number)
         {

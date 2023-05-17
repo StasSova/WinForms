@@ -4,3 +4,9 @@ C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.csproj.AssemblyRefer
 C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.csproj.CoreCompileInputs.cache
 C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.dll
 C:\Users\stass\Desktop\Exam\MessageDll\obj\Debug\MessageDll.pdb
+C:\Users\stass\Desktop\Exam — копия\MessageDll\bin\Debug\MessageDll.dll
+C:\Users\stass\Desktop\Exam — копия\MessageDll\bin\Debug\MessageDll.pdb
+C:\Users\stass\Desktop\Exam — копия\MessageDll\obj\Debug\MessageDll.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\Exam — копия\MessageDll\obj\Debug\MessageDll.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\Exam — копия\MessageDll\obj\Debug\MessageDll.dll
+C:\Users\stass\Desktop\Exam — копия\MessageDll\obj\Debug\MessageDll.pdb

@@ -14,23 +14,20 @@ namespace _Server.FolderGroup
         {
             groups= new List<Group>();
         }
-        public async void CreateGroup(string GroupName, Player player)
+        public void CreateGroup(string GroupName, Player player)
         {
-            await Task.Run(() =>
+            lock (groups)
             {
-                lock (groups)
-                {
-                    groups.Add(new Group(GroupName, player));
-                }
-            });
+                groups.Add(new Group(GroupName, player));
+            }
         }
-        public async void RemoveGroup(string GroupName)
+        public async void RemoveGroup(Group Group)
         {
             await Task.Run(() =>
             {
                 lock (groups)
                 {
-                    groups.Remove(groups.Find(d => d._name == GroupName));
+                    groups.Remove(Group);
                 }
             });
         }
@@ -56,6 +53,7 @@ namespace _Server.FolderGroup
                     {
                         if (group._players.Contains(player))
                         {
+                            group.MaxNumberReadyPlayers--;
                             group._players.Remove(player);
                             break;
                         }

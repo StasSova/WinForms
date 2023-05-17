@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Draw));
             this.panel3 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -69,7 +70,7 @@
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button6);
-            this.panel3.Location = new System.Drawing.Point(918, 272);
+            this.panel3.Location = new System.Drawing.Point(926, 272);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(176, 100);
             this.panel3.TabIndex = 10;
@@ -110,7 +111,7 @@
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.trackBar1);
-            this.panel2.Location = new System.Drawing.Point(915, 165);
+            this.panel2.Location = new System.Drawing.Point(923, 165);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(177, 101);
             this.panel2.TabIndex = 8;
@@ -119,7 +120,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("PMingLiU-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 8);
+            this.label1.Location = new System.Drawing.Point(-2, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 30);
             this.label1.TabIndex = 1;
@@ -141,7 +142,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.ContextMenuStrip = this.PictureMenu;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 72);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 72);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(890, 523);
             this.pictureBox1.TabIndex = 7;
@@ -184,7 +185,7 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(916, 72);
+            this.panel1.Location = new System.Drawing.Point(924, 72);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(176, 86);
             this.panel1.TabIndex = 6;
@@ -315,7 +316,7 @@
             // button11
             // 
             this.button11.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button11.Location = new System.Drawing.Point(918, 451);
+            this.button11.Location = new System.Drawing.Point(931, 449);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(171, 55);
             this.button11.TabIndex = 12;
@@ -327,7 +328,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1101, 638);
+            this.BackgroundImage = global::Paint.Properties.Resources.BackImage2;
+            this.ClientSize = new System.Drawing.Size(1117, 638);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
@@ -335,8 +337,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Draw";
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel3.ResumeLayout(false);

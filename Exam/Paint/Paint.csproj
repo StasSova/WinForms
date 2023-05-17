@@ -86,6 +86,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\BackImage2.jpg" />
+    <None Include="Resources\black-background.jpg" />
+    <None Include="Resources\Button_Back.jpg" />
     <Content Include="Resource\Eraser.png" />
     <Content Include="Resource\Main_Background.jpg" />
     <Content Include="Resource\Pen.png" />

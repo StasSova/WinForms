@@ -18,9 +18,26 @@ namespace Paint
         private Controller _contr;
         private bool isMouseDown = false;
         private int Time;
-        public Draw(string text = "Птичка", int time = 5)
+        public Draw(bool isBlack,string text = "Птичка", int time = 60*5)
         {
             InitializeComponent();
+            // Theme
+            if (isBlack) 
+            {
+                this.BackgroundImage = Properties.Resources.black_background;
+
+                button11.ForeColor = Color.White;
+                button11.BackgroundImage = Properties.Resources.Button_Back;
+
+                label1.BackColor = Color.Black;
+                label1.ForeColor = Color.White;
+
+                label2.BackColor = Color.Black;
+                label2.ForeColor = Color.White;
+
+                label3.BackColor = Color.Black;
+                label3.ForeColor = Color.White;
+            }
             //
             // Properties Form
             //
@@ -29,7 +46,7 @@ namespace Paint
             // их достижения элементов управления внутри формы.
             this.KeyPreview = true;
             // Фоновое изображение
-            this.BackgroundImage = Properties.Resources.Main_Background;
+            //this.BackgroundImage = Properties.Resources.Main_Background;
             // "DoubleBuffered" - предназначено для уменьшения мерцания элементов
             // при их обновлении на форме.
             this.DoubleBuffered = true;
@@ -56,7 +73,7 @@ namespace Paint
             //
             #region
             // Фон 
-            label3.Image = Properties.Resources.Main_Background;
+            //label3.Image = Properties.Resources.Main_Background;
             // Показывает информацию о том, что необходимо нарисовать
             label3.Text = text;
             if (label3.Text.Length >= 10 && label3.Text.Length < 20)
@@ -148,15 +165,19 @@ namespace Paint
         // изменения цвета кнопки
         private void изменитьЦветToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // вызываем окно
-            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            try
             {
-                // достаем из хранимого объекта контекстого меню кнопку
-                // и ей присваиваем цвет
-                ((Button)contextMenuStrip1.Tag).BackColor = colorDialog1.Color;
-                // сразу меняем цвет кнопки
-                _contr.SetColorPen(colorDialog1.Color);
+                // вызываем окно
+                if (colorDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    // достаем из хранимого объекта контекстого меню кнопку
+                    // и ей присваиваем цвет
+                    ((Button)contextMenuStrip1.Tag).BackColor = colorDialog1.Color;
+                    // сразу меняем цвет кнопки
+                    _contr.SetColorPen(colorDialog1.Color);
+                }
             }
+            catch (Exception ex) { }
         }
         // Вызов - щелчек кнопки на цветную кнопку
         // запоминание кнопки, по которой был щелчек
@@ -236,7 +257,7 @@ namespace Paint
             // если нажата левая кнопка мышки
             if (e.Button == MouseButtons.Left)
             {
-                // изменяем значения поля 
+                // изменяем значения поля
                 isMouseDown = true;  
                 // Сохраняем текущее состояние полотна
                 _contr.Save(new Bitmap(pictureBox1.Image), pictureBox1.BackColor);
@@ -269,6 +290,7 @@ namespace Paint
             {
                 timer1.Stop();
                 _result = (Bitmap)pictureBox1.Image;
+                _result.Tag = pictureBox1.BackColor;
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
@@ -276,6 +298,7 @@ namespace Paint
         private void button11_Click(object sender, EventArgs e)
         {
             _result = (Bitmap)pictureBox1.Image;
+            _result.Tag = pictureBox1.BackColor;
         }
     }
 }

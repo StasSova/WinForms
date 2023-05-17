@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
 using MessageDll;
 using System.Threading;
+using System.Drawing;
 
 namespace _Server
 {
@@ -95,8 +96,9 @@ namespace _Server
                                 {
                                     // received._message - содержит название группы
                                     _group.CreateGroup(received._message, player);
+                                    group = _group.GetGroup(player);
                                     message._code = "[GROUP_CREATED]";
-                                    message._message = null;
+                                    message._message = player._nickname;
                                     SendMessageToClient(client, message);
                                 }
                                 // Клиент нажал на кнопку присоединится к игре
@@ -122,9 +124,10 @@ namespace _Server
 
                                     // отправляем ему код об присоединении
                                     message._code = "[CONNECTED]";
-                                    // так же список игроков, которые там есть
                                     group = _group.GetGroup(player);
+                                    // так же список игроков, которые там есть
                                     List<string> players = group.GetPlayersNameWithout(player);
+                                    players.Add(player._nickname);
                                     message._message = string.Join("|", players);
                                     SendMessageToClient(client, message);
                                 }
@@ -133,33 +136,43 @@ namespace _Server
                                     // а всем остальным отправляем сообщение о том, что к ним присоединились
                                     message._code = "[CONNECTED_TO_GROUP]";
                                     message._message = player._nickname;    // кто присоединился
-                                    List<Player> players = null;
-                                    Task getPlayers = new Task(() =>
-                                    {
-                                        // ИСПРАВИТЬ
-                                        players = _group.GetGroup(player).GetPlayersWithout(player);
-                                    });
-                                    getPlayers.Start();
-                                    Task.WaitAll(getPlayers);
-                                    //Parallel.Invoke(() =>
-                                    //{
-                                    //    players = _group.GetGroup(player).GetPlayersWithout(player);
-                                    //});
-                                    //Task.WaitAll();
+                                    List<Player> players = group.GetPlayersWithout(player);
                                     if (players != null)
                                     {
                                         Parallel.ForEach<Player>(players, i =>
                                         { SendMessageToClient(i._tcp, message); });
                                     }
                                 }
+                                // Выход учасника из лобби
+                                else if (received._code == "[EXITFROMGAME]")
+                                {
+                                    message._code = "[REMOVE]";
+                                    message._message = player._nickname;
+                                    foreach (Player p in group.GetPlayersWithout(player))
+                                    {
+                                        SendMessageToClient(p._tcp, message);
+                                    }
+                                    group.RemoveFromGroup(player);
+                                }
+                                // Выход админа из лобби
+                                else if (received._code == "[REMOVEGAME]")
+                                {
+                                    message._code = "[EXIT]";
+                                    foreach (Player p in group.GetPlayersWithout(player))
+                                    {
+                                        SendMessageToClient(p._tcp, message);
+                                    }
+                                    _group.RemoveGroup(group);
+                                }
                                 // Клиент выходит из игры
                                 else if (received._code == "[EXIT]")
                                 {
-                                    Task RemovePlayer = new Task(() =>
-                                    {
-                                        _group.RemovePlayerFromGroup(player);
-                                    });
-                                    RemovePlayer.Start();
+                                    _group.RemovePlayerFromGroup(player);
+                                    group = null;
+                                }
+                                else if (received._code == "[EXITALL]")
+                                {
+                                    _group.RemovePlayerFromGroup(player);
                                     break;
                                 }
                                 else if (received._code == "[START_GAME]")
@@ -175,6 +188,7 @@ namespace _Server
                                     group.InGame = true;     // меняем статус игры
                                     // получаем учасников игры, без лидера группы
                                     List<Player> players = group.GetPlayersWithout(player);
+                                    players.Add(player);
                                     message._code = "[START_GAME]";
                                     message._message = null;
                                     foreach (var item in players)
@@ -218,13 +232,14 @@ namespace _Server
                                     group.CurrrentNumberReadyPlayers++;
                                     // в сообщении содержится имя, владельца истории
                                     // ему добавляем теперь картирнку
+                                    received._bitmap.Tag = received._color;
                                     group._players.Find(p => p._nickname == received._message).history.images.Add(received._bitmap);
                                     // если все готовы, начинаем отправку сообщений
                                     if (group.CurrrentNumberReadyPlayers == group.MaxNumberReadyPlayers)
                                     {
                                         // если кол-во раундов == количеству учасников, игра завершается
                                         // показываем историю игры
-                                        if (group.CurrentRound == group.MaxNumberReadyPlayers)
+                                        if (group.CurrentRound >= group.MaxNumberReadyPlayers)
                                         {
                                             // отправка сообщений клиенту о том что игра оконченна
                                             // Клиент открывает форму, которая читаем дальнейшие изображения
@@ -242,21 +257,28 @@ namespace _Server
                                             // для каждого игрока
                                             foreach (var item in group._players)
                                             {
+                                                // история данного игрока
                                                 for (int i = 0; i < item.history.themes.Count; i++)
                                                 {
                                                     // ник автора истории и тема его истории
                                                     message._message = string.Join("|", item._nickname, item.history.themes[i]);
                                                     // изображение истории
                                                     message._bitmap = item.history.images[i];
+                                                    message._color = (Color)message._bitmap.Tag;
                                                     // пол секунды задрежки с исопльзованием Task.Delay
                                                     // который в отличие от обычного Thread.Sleep не
                                                     // блокирует поток в котором был вызван метод, 
                                                     // а ещё и освобождает ресуры, занимаемые процессором,
                                                     // для других опериций.
-                                                    await Task.Delay(500); 
-                                                    SendMessageToClient(item._tcp, message);
+                                                    await Task.Delay(500);
+                                                    // Отправка всем игрокам
+                                                    foreach (var item2 in group._players)
+                                                    {
+                                                        SendMessageToClient(item2._tcp, message);
+                                                    }
                                                 }
-                                                await Task.Delay(2000);
+                                                item.history = new History(item._nickname);
+                                                await Task.Delay(1000);
                                             }
                                             await Task.Delay(2000);
                                             message._message = null;
@@ -266,20 +288,29 @@ namespace _Server
                                             {
                                                 SendMessageToClient(item._tcp, message);
                                             }
+                                            _group.RemoveGroup(group);
                                         }  
                                         else
                                         {
+                                            Random r = new Random();
                                             group.CurrentRound++;
                                             group.CurrrentNumberReadyPlayers = 0;
                                             message._code = "[THEME]";
+                                            List<History> history = new List<History>();
                                             foreach (var item in group._players)
                                             {
-                                                // получаю историю следующего игрока, после данного
-                                                History temp = group.NextPlayer(item).history;
-                                                // содержится имя владельца истории
-                                                message._message = temp.author;
-                                                message._bitmap = temp.images.Last();
+                                                // заполняем массив историй 
+                                                history.Add(item.history); 
+                                            }
+                                            foreach (var item in group._players)
+                                            {
+                                                // находим случайный номер истории
+                                                int pos = r.Next(0, history.Count-1);
+                                                message._message = history[pos].author;
+                                                message._bitmap = history[pos].images.Last();
+                                                message._color = (Color)history[pos].images.Last().Tag;
                                                 SendMessageToClient(item._tcp, message);
+                                                history.Remove(history[pos]);
                                             }
                                         }
                                     }
@@ -310,6 +341,14 @@ namespace _Server
                                         }
                                     }
                                 }
+                                else if (received._code == "[RESETGROUP]")
+                                {
+                                    if (group!= null)
+                                    {
+                                        group.RemoveFromGroup(player);
+                                        group= null;
+                                    }
+                                }
                             }
                             catch (Exception e) 
                             { 
@@ -325,7 +364,7 @@ namespace _Server
                 catch (Exception ex)
                 {
                     //view.AddToListBox(ex.Message); 
-                    client.Close();
+                    //client.Close();
                     _group.RemovePlayerFromGroup(player);
                 }
             });

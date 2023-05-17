@@ -1,0 +1,12 @@
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\bin\Debug\HW16_Udp_Client_Server.exe.config
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\bin\Debug\HW16_Udp_Client_Server.exe
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\bin\Debug\HW16_Udp_Client_Server.pdb
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.csproj.AssemblyReference.cache
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.csproj.SuggestedBindingRedirects.cache
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.Chat.resources
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.Init.resources
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.Properties.Resources.resources
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.csproj.GenerateResource.cache
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.csproj.CoreCompileInputs.cache
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.exe
+D:\Visual_Studio\WinForms\HW16_Udp_Client_Server\obj\Debug\HW16_Udp_Client_Server.pdb

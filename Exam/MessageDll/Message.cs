@@ -14,5 +14,6 @@ namespace MessageDll
         public string _code;
         public string _message;
         public Bitmap _bitmap;
+        public Color _color;
     }
 }

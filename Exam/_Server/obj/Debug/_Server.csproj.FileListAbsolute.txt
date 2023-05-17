@@ -12,3 +12,17 @@ C:\Users\stass\Desktop\Exam\_Server\bin\Debug\MessageDll.pdb
 C:\Users\stass\Desktop\Exam\_Server\obj\Debug\_Server.csproj.CopyComplete
 C:\Users\stass\Desktop\Exam\_Server\obj\Debug\_Server.exe
 C:\Users\stass\Desktop\Exam\_Server\obj\Debug\_Server.pdb
+C:\Users\stass\Desktop\Exam — копия\_Server\bin\Debug\_Server.exe.config
+C:\Users\stass\Desktop\Exam — копия\_Server\bin\Debug\_Server.exe
+C:\Users\stass\Desktop\Exam — копия\_Server\bin\Debug\_Server.pdb
+C:\Users\stass\Desktop\Exam — копия\_Server\bin\Debug\MessageDll.dll
+C:\Users\stass\Desktop\Exam — копия\_Server\bin\Debug\MessageDll.pdb
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.Properties.Resources.resources
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.View.resources
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.csproj.GenerateResource.cache
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.csproj.CopyComplete
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.exe
+C:\Users\stass\Desktop\Exam — копия\_Server\obj\Debug\_Server.pdb
